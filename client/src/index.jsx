@@ -23,10 +23,7 @@ class App extends React.Component {
       url: "/repos",
       success: function (data) {
         alert('success');
-      },
-      error: function (data) {
-        alert('failure');
-      },
+      }
     });
   }
 

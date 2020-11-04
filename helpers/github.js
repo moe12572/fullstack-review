@@ -18,12 +18,12 @@ let getReposByUsername = (userID) => {
 
   //send the GET request
   return axios(options)
-    .then(res => {
-      console.log(res)
-    })
-    .catch(err => {
-      console.log('Status: ' + err.response.headers.status);
-    })
+  // .then(res => {
+  //   console.log(res)
+  // })
+  // .catch(err => {
+  //   console.log('Status: ' + err.response.headers.status);
+  // })
 
 }
 
